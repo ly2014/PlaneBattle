@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"> 
+    
+    <TextView android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"        
+        android:text="游戏结束"
+        android:layout_marginBottom="10dp" />
+    
+    <TextView android:id="@+id/y_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/e_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="重新开始"
+        android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/eb_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="最高分"
+        android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/e_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="返回主菜单" />
+
+</LinearLayout>

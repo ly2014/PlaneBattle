@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/m_bg" >
+    
+    <ImageView
+        android:src="@drawable/a_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        
+    <Button android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="开始游戏"
+        android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="难度选择"
+        android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/b_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="最高分"
+        android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="退出游戏" />
+
+</LinearLayout>
